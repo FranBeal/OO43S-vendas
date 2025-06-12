@@ -32,7 +32,7 @@ public class PedidoService {
     }
 
     public Pedido buscarPedidoPorId(long id){
-        return pedidoDao.buscarPedidoPoriD(id);
+        return pedidoDao.buscarPorId(id);
     }
 
     public List<Pedido> buscarPedidoPorPeriodo(LocalDate dataIni, LocalDate dataFim){
